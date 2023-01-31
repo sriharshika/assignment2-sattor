@@ -30,5 +30,25 @@ In this table we are showimg the list of countries to visit
 >'It is never too late to be what you might have been.' – ***George Eliot ***
 >'Pain is inevitable. Suffering is optional.' – ***Haruki Murakami***
 
+>How can I make a sticky table header? [please](https://stackoverflow.com/questions/71782720/how-can-i-make-a-sticky-table-header)
+
+```
+function UpdateTableHeaders() {
+   $("div.divTableWithFloatingHeader").each(function() {
+       offset = $(this).offset();
+       scrollTop = $(window).scrollTop();
+       if ((scrollTop > offset.top) && (scrollTop < offset.top + $(this).height())) {
+           $(".tableFloatingHeader", this).css("visibility", "visible");
+           $(".tableFloatingHeader", this).css("top", Math.min(scrollTop - offset.top, $(this).height() - $(".tableFloatingHeader", this).height()) + "px");
+       }
+       else {
+           $(".tableFloatingHeader", this).css("visibility", "hidden");
+           $(".tableFloatingHeader", this).css("top", "0px");
+       }
+   })
+};
+
+```
+snippet source code [link](https://css-tricks.com/snippets/jquery/persistant-headers-on-tables/)
 
 
