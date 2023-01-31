@@ -26,3 +26,9 @@ In this table we are showimg the list of countries to visit
 | UK         | Tourism          | 1month     |
 |Switzerland | Location         | 1month     |
 
+# Pithy Quotes
+>'It is never too late to be what you might have been.' – ***George Eliot ***
+>'Pain is inevitable. Suffering is optional.' – ***Haruki Murakami***
+
+
+
