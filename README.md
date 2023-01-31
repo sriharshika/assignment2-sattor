@@ -16,3 +16,13 @@ Three best players are
    * Newzeeland cricket team
    let's go to the link
    [please](https://github.com/sriharshika/assignment2-sattor/blob/main/AboutMe.md)
+
+# Table creation
+In this table we are showimg the list of countries to visit 
+| Country    | Reason for Visit| No of Days  |
+|---------   | ----------------| ----------  |
+| India      | Tradition        | 6 months   |
+| US         | Climate          | 3 months   |
+| UK         | Tourism          | 1month     |
+|Switzerland | Location         | 1month     |
+
